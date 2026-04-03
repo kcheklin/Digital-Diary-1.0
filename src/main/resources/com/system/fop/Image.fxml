@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" style="-fx-background-color: white;" xmlns="http://javafx.com/javafx/23.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.system.fop.ImageController">
+    <children>
+      <ImageView fitHeight="410.0" fitWidth="610.0" opacity="0.5" pickOnBounds="true">
+         <image>
+            <Image url="@IMG_202501069840_600x497.jpg" />
+         </image>
+      </ImageView>
+        <ImageView fx:id="imageView" fitHeight="293.0" fitWidth="536.0" layoutX="32.0" layoutY="30.0" pickOnBounds="true" preserveRatio="true" />
+        <Button fx:id="confirmButton" layoutX="264.0" layoutY="343.0" mnemonicParsing="false" onAction="#onConfirmButtonClick" style="-fx-background-color: rgba(39,24,24,0.65);" text="Confirm" textFill="#fffbfb">
+         <font>
+            <Font name="Times New Roman" size="15.0" />
+         </font></Button>
+    </children>
+</AnchorPane>
